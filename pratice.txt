@@ -1,0 +1,122 @@
+import React from 'react'
+
+import Card from './card'
+
+const App = () => {
+  return (
+    
+    <div className='parent'>
+        
+      <Card user='Niraj' age={23}/>
+       <Card  user='Jungkook' age={28}/>
+      
+
+    </div>
+    
+  )
+}
+
+export default App
+
+const jobs = [
+  {
+    brandLogo: "/amazon.jpg",
+    company: "Amazon",
+    posted: "5 days ago",
+    post: "Frontend Developer",
+    tag1: "Full-Time",
+    tag2: "Junior Level",
+    pay: "$55/hr",
+    location: "Bangalore, India"
+  },
+  {
+    brandLogo: "/google.png",
+    company: "Google",
+    posted: "2 days ago",
+    post: "Software Engineer",
+    tag1: "Full-Time",
+    tag2: "Mid Level",
+    pay: "$75/hr",
+    location: "Hyderabad, India"
+  },
+  {
+    brandLogo: "/microsoft.png",
+    company: "Microsoft",
+    posted: "1 week ago",
+    post: "Backend Developer",
+    tag1: "Full-Time",
+    tag2: "Senior Level",
+    pay: "$82/hr",
+    location: "Noida, India"
+  },
+  {
+    brandLogo: "/apple.png",
+    company: "Apple",
+    posted: "3 days ago",
+    post: "iOS Developer",
+    tag1: "Full-Time",
+    tag2: "Senior Level",
+    pay: "$90/hr",
+    location: "Bangalore, India"
+  },
+  {
+    brandLogo: "/meta.png",
+    company: "Meta",
+    posted: "6 days ago",
+    post: "React Developer",
+    tag1: "Remote",
+    tag2: "Mid Level",
+    pay: "$78/hr",
+    location: "Remote"
+  },
+  {
+    brandLogo: "/netflix.png",
+    company: "Netflix",
+    posted: "10 days ago",
+    post: "UI Engineer",
+    tag1: "Remote",
+    tag2: "Senior Level",
+    pay: "$95/hr",
+    location: "Mumbai, India"
+  },
+  {
+    brandLogo: "/adobe.png",
+    company: "Adobe",
+    posted: "4 days ago",
+    post: "UI/UX Designer",
+    tag1: "Full-Time",
+    tag2: "Junior Level",
+    pay: "$60/hr",
+    location: "Noida, India"
+  },
+  {
+    brandLogo: "/uber.png",
+    company: "Uber",
+    posted: "8 days ago",
+    post: "Java Developer",
+    tag1: "Contract",
+    tag2: "Mid Level",
+    pay: "$68/hr",
+    location: "Hyderabad, India"
+  },
+  {
+    brandLogo: "/nvidia.png",
+    company: "NVIDIA",
+    posted: "9 days ago",
+    post: "AI Engineer",
+    tag1: "Full-Time",
+    tag2: "Senior Level",
+    pay: "$110/hr",
+    location: "Pune, India"
+  },
+  {
+    brandLogo: "/intel.png",
+    company: "Intel",
+    posted: "7 days ago",
+    post: "Cloud Engineer",
+    tag1: "Hybrid",
+    tag2: "Mid Level",
+    pay: "$72/hr",
+    location: "Chennai, India"
+  }
+];
